@@ -28,6 +28,9 @@ else
 	echo $new_config > $HOME/.bash_profile
 fi
 
+# create the history file
+touch $WD/tmp/.bash_history
+
 # try to restore a previous backup
 
 BACKUP_DIR=$HOME/.cbash-gurinderhans.bk

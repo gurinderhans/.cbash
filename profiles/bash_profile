@@ -12,6 +12,7 @@ export HISTSIZE=
 export HISTFILESIZE=
 export HISTCONTROL=ignoreboth:erasedups
 export HISTFILE=$CBASH_DIR/tmp/.bash_history
+export SHELL_SESSION_HISTORY=0
 
 # vim config
 export VIMINIT="source $CBASH_DIR/vim/vimrc"
